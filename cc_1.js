@@ -31,3 +31,10 @@ let customerName = "Elijah Martin"; //assigning customerName variable a string w
 let welcomeMessage = "Welcome to our store"; //assigning welcomeMessage variable a string with a welcome
 
 console.log(welcomeMessage.concat(" ", customerName)); //putting strings together using concatenate
+
+//Task 5: Boolean Data Type
+let isLoggedIn = true; //assigning the variable isLoggedIn boolean data type
+let isMember = false; //assigning the variable isMember a boolean data type
+
+let hasAccess = isLoggedIn && !isMember; //using logical operations to determine if the user has access
+console.log("Access Granted:", hasAccess); //logging if the user has access by outputting true or false
