@@ -18,3 +18,10 @@ console.log("Item: ", productName, "Type: ", typeof productName); //logging vari
 console.log("Cost: ", productPrice, "Type: ", typeof productPrice); //logging variable productPrice's value and type in the console
 console.log("In Stock: ", isAvailable, "Type: ", typeof isAvailable); //logging variable isAvailable's value and type in the console
 
+//Task 3 : Number Data Type
+let accountBalance = 1000; //assigning variable number data type
+
+console.log("New Balance after deposit:", accountBalance += 500);//Adding money into the account balance and logging it to the console
+console.log("New Balance after payment:", accountBalance -= 250);//Buying product using the account balance and logging it to the console
+console.log("New Balance after gaining interest:", accountBalance *= 1.05);//gained interest on account balance at the end of month and logging it to the console
+console.log("New Balance in each account:", accountBalance /= 3);//diving the company balance into 3 seperate accounts and logging it to the console
