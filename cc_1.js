@@ -25,3 +25,9 @@ console.log("New Balance after deposit:", accountBalance += 500);//Adding money 
 console.log("New Balance after payment:", accountBalance -= 250);//Buying product using the account balance and logging it to the console
 console.log("New Balance after gaining interest:", accountBalance *= 1.05);//gained interest on account balance at the end of month and logging it to the console
 console.log("New Balance in each account:", accountBalance /= 3);//diving the company balance into 3 seperate accounts and logging it to the console
+
+//Task 4: String Data Type
+let customerName = "Elijah Martin"; //assigning customerName variable a string with the customer's name
+let welcomeMessage = "Welcome to our store"; //assigning welcomeMessage variable a string with a welcome
+
+console.log(welcomeMessage.concat(" ", customerName)); //putting strings together using concatenate
